@@ -137,4 +137,4 @@ if __name__ == "__main__":
     verbs = db.get_verbs(choice[0], 1)
     score = exercise(inputNo, verbs, direction[0])
 
-    print(f"You had {score} out of {inputNo} correct, {100.0*score/inputNo} %")
+    print(f"You had {score} out of {inputNo} correct, {100.0*score/inputNo:.0f} %")
